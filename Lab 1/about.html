@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 8: About Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>About</h1>
         <hr>
     </header>
     <nav>
+        <a href="home.html" target="_blank" class="navButton">Home</a>
+        <a href="about.html" target="_blank" class="navButton currentPage">About</a>
+        <a href="contact.html" target="_blank" class="navButton">Contact</a>
+        <!-- <div class="container"></div>
         <a href="home.html">Home </a>
         <a href="about.html">About </a>
         <a href="contact.html">Contact</a>
+        </div> -->
     </nav>
     <br>
     <br>
-    <table>
-        <tr>
-            <th>Programming Languages</th>
-            <th>Years Experience</th>
-        </tr>
-        <tr>
-            <td>Python</td><td>3</td>
-        </tr>
-        <tr>
-            <td>C++</td><td>2</td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <b>Our Common Hobbies:</b>
-    <br>
-    <ul>
-        <li>Video Games</li>
-        <li>Studing in free time</li>
-        <li>Reading</li>
-    </ul>
-    <hr>
+    <div id="center">
+        <table>
+            <tr>
+                <td><strong>Programming Languages</strong></td>
+                <td><strong>Years Experience</strong></td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <b>Our Common Hobbies:</b>
+        <br>
+        <ul>
+            <li>Video Games</li>
+            <li>Studing in free time</li>
+            <li>Reading</li>
+        </ul>
+        <hr>
+    </div>
     <footer>
-    
-        <img src="img/CSUMBLogo.png" alt="logo"  >
+
+        <img src="img/CSUMBLogo.png" alt="logo">
         <p>CST336 Internet Programming. 2026 &copy; Rios, Shanley, Serrano Acevedo, Ruiz-Mireles</p>
-        <b>Disclaimer:</b>
-        <p>The information in this webpage is fictitious.</p>
-        <p>It is used for academic purposes only.</p>
+        <p> Disclaimer: The information in this webpage is fictitious. It is used for academic purposes only.</p>
     </footer>
 </body>
+
 </html>
