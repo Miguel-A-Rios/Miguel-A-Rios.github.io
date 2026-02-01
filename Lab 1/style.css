@@ -14,8 +14,21 @@ nav {
     content: center;
     padding: 2% 0 2% 0;
 }
-nav:hover{
 
+/* Pseudo code */
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+/* Pseudo code hover */
+nav a:hover {
+    border-bottom: 2.2px navy;
+    font-size: 2em;
+    transition: .9s;
 }
 
 .navButton {
@@ -26,17 +39,19 @@ nav:hover{
     font-size: 30px;
     padding: 2px 5px 2px 5px;
 }
+
 .currentPage {
     border: 1px solid white;
 }
 
-.imageStyle{
+.imageStyle {
     border-radius: 20%;
-    width: 250px; 
+    width: 250px;
     height: 250px;
     object-fit: cover;
 }
-.row{
+
+.row {
     flex-wrap: wrap;
     display: flex;
     /* justify-content: center; */
@@ -44,46 +59,54 @@ nav:hover{
     align-items: center;
 
 }
-#table{
+
+#table {
     margin: 0px auto;
 }
-.imageFigure{
+
+.imageFigure {
     text-align: center;
     font-size: 20px;
     /* width: 5%;  */
 }
-footer{
+
+footer {
     text-align: center;
     font-size: 15px;
     color: grey;
 }
-#homeText{
+
+#homeText {
     text-align: center;
     font-size: 20px;
 }
-#center{
-    background-color: blue;
+
+#center {
+    background-color: navy;
 }
+
 #csumbLogo {
     height: 150px;
     width: 150px;
 }
-#content{
+
+#content {
     text-align: center;
     align-items: center;
-    background-color: blue;
+    background-color: navy;
 }
 
-body{
+body {
     /* Google Font */
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-  }
-  h1{
+        "wdth" 100;
+}
+
+h1 {
     text-align: center;
     /* Google Font */
     font-family: "Open Sans", sans-serif;
@@ -91,5 +114,19 @@ body{
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-  }
+        "wdth" 100;
+}
+
+#tableAbout {
+    border: 1px;
+    border-color: white;
+    border-radius: 20%;
+    text-align: center;
+}
+#columnLabels{
+    background-color: antiquewhite;
+    color: black; 
+}
+#hobbies{
+    align-items: center;
+}
