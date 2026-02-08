@@ -1,14 +1,15 @@
-body{
-text-align: center;
-background-image: url("img/ai-background-image.jpeg");
-color: white;
-font-family: "Times New Roman", Times, serif;
-}
-header{
-text-align: center;
+body {
+    text-align: center;
+    background-image: url("img/ai-background-image.jpeg");
+    color: white;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.images{
+header {
+    text-align: center;
+}
+
+.images {
     border: 1px solid blue;
     object-fit: cover;
     text-align: center;
@@ -16,19 +17,22 @@ text-align: center;
     height: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-h1{
+
+h1 {
     color: cyan;
     text-align: center;
 }
+
 nav {
     background-color: cyan;
     display: flex;
     justify-content: center;
     align-items: center;
-    content: center;
+    /* content: center; */
     padding: 2% 0 2% 0;
     border: 2px solid black;
 }
+
 /* hover */
 nav a {
     padding: 15px;
@@ -37,6 +41,7 @@ nav a {
     text-decoration: none;
     color: white;
 }
+
 /* hover */
 nav a:hover {
     border-bottom: 2.2px black;
@@ -44,18 +49,22 @@ nav a:hover {
     transition: .9s;
 }
 
-.navButton{
+.navButton {
     background-color: blue;
     color: white;
     text-align: center;
     margin: 0 auto;
     font-size: 30px;
     padding: 2px 5px 2px 5px;
-    transition: background-color 0.3s ease; /* makes hover effects smooth */
+
+    /* makes hover effects smooth */
+    transition: background-color 0.3s ease;
 }
-.currentPage{
+
+.currentPage {
     border: 3px solid black;
 }
-#pageText{
+
+#pageText {
     font-size: 1.5em;
 }
