@@ -3,6 +3,8 @@ body {
     background-image: url("img/ai-background-image.jpeg");
     color: white;
     font-family: "Times New Roman", Times, serif;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header {
