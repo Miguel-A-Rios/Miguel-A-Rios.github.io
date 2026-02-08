@@ -14,6 +14,7 @@ text-align: center;
     text-align: center;
     width: 60%;
     height: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 h1{
     color: cyan;
@@ -27,7 +28,6 @@ nav {
     content: center;
     padding: 2% 0 2% 0;
     border: 2px solid black;
-    /* margin: 50px; */
 }
 /* hover */
 nav a {
@@ -51,6 +51,7 @@ nav a:hover {
     margin: 0 auto;
     font-size: 30px;
     padding: 2px 5px 2px 5px;
+    transition: background-color 0.3s ease;
 }
 .currentPage{
     border: 3px solid black;
