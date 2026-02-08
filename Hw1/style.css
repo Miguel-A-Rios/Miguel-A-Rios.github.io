@@ -1,0 +1,59 @@
+body{
+text-align: center;
+background-image: url("img/ai-background-image.jpeg");
+color: white;
+}
+header{
+text-align: center;
+}
+
+.images{
+    border: 1px solid blue;
+    object-fit: cover;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    /* width: 250px;
+    height: 250px; */
+    /* object-fit: cover; */
+}
+h1{
+    color: cyan;
+    text-align: center;
+}
+nav {
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: center;
+    padding: 2% 0 2% 0;
+    border: 2px solid black;
+    /* margin: 50px; */
+}
+/* hover */
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+/* hover */
+nav a:hover {
+    border-bottom: 2.2px black;
+    font-size: 2em;
+    transition: .9s;
+}
+
+.navButton{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 2px 5px 2px 5px;
+}
+.currentPage{
+    border: 3px solid black;
+}
