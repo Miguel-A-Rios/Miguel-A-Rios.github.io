@@ -1,11 +1,42 @@
-body{
-    background-image: url("img/random-number-background.jpeg");
-    color: black;
+body {
+    background-image: url("https://www.udacity.com/blog/wp-content/uploads/2021/04/Random-Numbers_Blog-scaled-e1631635327616.jpeg");
+    color: white;
     font-family: "Times New Roman", Times, serif;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+header {
     text-align: center;
 }
-header{
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    background-color: black;
+}
+
+#guessBtn {
+    background-color: cyan;
+    color: black;
     text-align: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 2px 5px 2px 5px;
+}
+
+#resetBtn {
+    background-color: cyan;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 2px 5px 2px 5px;
 }
