@@ -1,0 +1,11 @@
+body{
+    background-image: url("img/random-number-background.jpeg");
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+header{
+    text-align: center;
+}

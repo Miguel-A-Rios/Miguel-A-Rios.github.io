@@ -51,7 +51,6 @@ function checkGuess() {
     attempts++;
     attemptsLeft--;
     document.querySelector("#attemptsLeft").textContent = attemptsLeft;
-    // document.querySelector("#wins").textContent = wins;
     console.log("Attempts:" + attempts);
     feedback.style.color = "orange";
     if (guess == randomNumber) {
@@ -63,20 +62,17 @@ function checkGuess() {
     } else {
         document.querySelector("#guesses").textContent += guess + " ";
         if (attempts == 7) {
-            feedback.textContent = "Sorry, you lost!";
+            feedback.textContent = "Sorry, you lost! The random number was " + randomNumber;
             feedback.style.color = "red";
             losses++;
             document.querySelector("#losses").textContent = losses;
             gameOver();
         } else if (guess > randomNumber) {
             feedback.textContent = "Guess was high";
-            // attemptsLeft--;
         } else {
             feedback.textContent = "Guess was low";
-            // attemptsLeft--;
         }
     }
-    // document.querySelector("#guesses").textContent += guess + " "
 }
 
 function gameOver() {
