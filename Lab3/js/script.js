@@ -52,6 +52,12 @@ function gradeQuiz() {
     gradeQ5();
 
     document.querySelector("#finalScore").textContent = "Final Score: " + final_score;
+
+    if(final_score >= 80){
+        document.querySelector("#congratMsg").textContent = "Congratulations you scored above 80!";
+        document.querySelector("#congratMsg").style.color = "green";
+
+    }
 }
 
 function gradeQ2() {
@@ -105,3 +111,4 @@ function gradeQ5() {
         document.querySelector("#q5Answer").style.color = "red";
     }
 }
+
