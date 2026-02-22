@@ -8,13 +8,14 @@
     <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js">
     </script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.2/underscore-umd-min.js"> </script>  -->
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
 </head>
 
 <body>
 
     <h1>Pokemon Quiz</h1>
-    1. What are is Hoen's fire type starter Pokemon?
+    <h7>1. What is Hoen's fire type starter Pokemon?</h7>
     <br>
     <!-- <input type="radio" name="q1" value="treecko"><label for="Tr">Treekco</label>
     <input type="radio" name="q1" value="tornich"><label for="To">Tornich</label>
@@ -24,18 +25,18 @@
     <div id="q1Choices"></div>
     <span id="q1AnswerImg"></span>
     <h2 id="q1Answer"></h2>
+
     <br>
 
-    2. What is 5th gen region name?
+    <h7>2. What is 5th gen region name?</h7>
     <input type="text" id="q2">
     <span id="q2AnswerImg"></span>
 
     <h2 id="q2Answer"></h2>
-    <!-- <span id="q2Answer"></span> -->
 
     <br>
 
-    3. What is one of Charizard's types?
+    <h7>3. What is one of Charizard's types?</h7>
     <select id="selectInput">
         <option>Options</option>
         <option value="Flying">Flying</option>
@@ -49,33 +50,38 @@
 
     <br>
 
-    
-    4. What is the most popular Pokemon?
+
+    <h7>4. What is the most popular Pokemon? </h7><br>
+    <h8>
         1. Arceus
         2. Pikachu
         3. Mewtwo
         4. Charizard
+    </h8>
+    </h7>
     <input type="number" id="q4">
     <span id="q4AnswerImg"></span>
     <h2 id="q4Answer"></h2>
 
     <br>
 
-    5. What are the weaknesses of Pikacu. 
-    <input type="checkbox" name="q5" value="Fire"><label for="Fire"> Fire </label>
-    <input type="checkbox" name="q5" value="Ground"> <label for="Ground"> Ground </label>
-    <input type="checkbox" name="q5" value="Water"> <label for="Water"> Water </label>
-    <input type="checkbox" name="q5" value="Flying"><label for="Flying"> Flying </label>
-    <span id="q5AnswerImg"></span>
-    <h3 id="q5Answer"></h3>
+    <h7> 5. What are the weaknesses of Pikacu? </h7><br>
+        <h8>
+            <input type="checkbox" name="q5" value="Fire"><label for="Fire"> Fire </label>
+            <input type="checkbox" name="q5" value="Ground"> <label for="Ground"> Ground </label>
+            <input type="checkbox" name="q5" value="Water"> <label for="Water"> Water </label>
+            <input type="checkbox" name="q5" value="Flying"><label for="Flying"> Flying </label>
+        </h8>
+        <span id="q5AnswerImg"></span>
+        <h2 id="q5Answer"></h2>
 
-    <br>
-    <button>Submit Quiz</button>
-    <!-- <h3 id="q5Answer"></h3> -->
+        <br>
+        <button>Submit Quiz</button>
+        <!-- <h3 id="q5Answer"></h3> -->
 
-    <h4 id="finalScore"></h4>
-    <h5 id="totalAttempts"></h5>
-    <h6 id="congratMsg"></h6>
+        <h4 id="finalScore"></h4>
+        <h5 id="totalAttempts"></h5>
+        <h6 id="congratMsg"></h6>
 </body>
 
 </html>

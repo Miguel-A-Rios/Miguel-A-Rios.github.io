@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-size: 1.25em;
+    background-image: url("https://www.chromethemer.com/download/hd-wallpapers/pokemon-3840x2160.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.25em;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+h2,
+h4,
+h5,
+h6,
+h7 {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+h8{
+    text-align: center;
+    font-size: 1.25em;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 1.25em;
+    color: black;
+    background-color: lightblue;
+    border: 5px solid black;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 15px red;
+    transition: .9s;
+}
+
+#q1Choices,
+#selectInput {
+    text-align: center;
+    font-size: 1.25em;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+#q2,
+#q4 {
+    width: 20%;
+    height: 10%;
+    font-size: 1.25em;
+}
