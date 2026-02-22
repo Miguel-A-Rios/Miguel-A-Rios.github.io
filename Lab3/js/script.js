@@ -1,7 +1,7 @@
 // Event listeners
 document.querySelector("button").addEventListener("click", gradeQuiz);
 
-let attempts = localStorage.getItem("total_attempts")
+let attempts = localStorage.getItem("total_attempts");
 
 // Must call function so it can run
 shuffleQ1Choices();
