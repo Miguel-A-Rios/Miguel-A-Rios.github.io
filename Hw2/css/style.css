@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/027/010/208/non_2x/casino-poster-with-copy-space-neon-gold-casino-roulette-neon-slot-machine-black-playing-cards-and-poker-chips-on-dark-blurred-background-vector.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2em;
+    margin: 2em;
+}
+
+h1 {
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+h2,
+h3,
+h4 {
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.25em;
+}
+
+#playBtn {
+    font-size: 1.25em;
+    color: goldenrod;
+    background-color: gray;
+    border: 5px solid black;
+
+}
+
+#playBtn:hover {
+    background-color: goldenrod;
+    color: black;
+    box-shadow: 0 0 15px gold;
+    transition: .9s;
+}
+
+#resetBtn {
+    font-size: 1.25em;
+    color: goldenrod;
+    background-color: gray;
+    border: 5px solid black;
+}
+
+#resetBtn:hover {
+    background-color: goldenrod;
+    color: black;
+    box-shadow: 0 0 15px gold;
+    transition: .9s;
+}
+
+#slotContainer {
+    border: 5px solid black;
+    text-align: center;
+}
+
+#number {
+    width: 20%;
+    height: 10%;
+    font-size: 1.25em;
+}
