@@ -7,7 +7,7 @@ let attempts = localStorage.getItem("total_attempts")
 shuffleQ1Choices();
 
 function shuffleQ1Choices() {
-    let q1Choices = ["treecko", "tornich", "mudkip", "charmander"];
+    let q1Choices = ["Treecko", "Tornich", "Mudkip", "Charmander"];
     q1Choices = _.shuffle(q1Choices);
     console.log(q1Choices);
 
