@@ -33,7 +33,7 @@ let final_score;
 
 function gradeQuiz() {
     final_score = 0;
-    let answerQ1 = "tornich";
+    let answerQ1 = "Tornich";
     let userAnswer1 = document.querySelector("input[name=q1]:checked").value;
 
     // alert("Grading quiz..." + userAnswer1);
@@ -65,7 +65,7 @@ function gradeQuiz() {
     document.querySelector("#totalAttempts").textContent = "Total Attempts: " + attempts;
 
     if(final_score >= 80){
-        document.querySelector("#congratMsg").textContent = "Congratulations you scored above 80!";
+        document.querySelector("#congratMsg").textContent = "Congratulations you scored 80 or above!";
         document.querySelector("#congratMsg").style.color = "green";
 
     }
