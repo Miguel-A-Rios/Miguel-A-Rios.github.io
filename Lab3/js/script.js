@@ -99,6 +99,7 @@ function gradeQ3() {
     else {
         document.querySelector("#q3Answer").textContent = "Wrong!";
         document.querySelector("#q3Answer").style.color = "red";
+        document.querySelector("#q3AnswerImg").innerHTML = "<img src='img/red-x.jpeg' width='40' height='40'>";
     }
 }
 
@@ -112,6 +113,8 @@ function gradeQ4(){
     } else {
         document.querySelector("#q4Answer").textContent = "Wrong!";
         document.querySelector("#q4Answer").style.color = "red";
+        document.querySelector("#q4AnswerImg").innerHTML = "<img src='img/red-x.jpeg' width='40' height='40'>";
+
     }
 }
 
@@ -128,6 +131,8 @@ function gradeQ5() {
     } else {
         document.querySelector("#q5Answer").textContent = "Wrong!";
         document.querySelector("#q5Answer").style.color = "red";
+        document.querySelector("#q5AnswerImg").innerHTML = "<img src='img/red-x.jpeg' width='40' height='40'>";
+
     }
 }
 
