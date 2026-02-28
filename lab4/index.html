@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 4: Sign up Form </title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -25,17 +26,20 @@
         Longitude: <span id="longitude"></span>
         <br><br>
         State:
-        <select id="state">
-        </select><br>
-        Select a County: <select></select><br>
+        <select id="state"></select><br>
+        Select a County: <select id="county"></select><br>
 
-        Desired Username: <input type="text" id="usernameCheck"><span id="usernameStatus"></span><br>
-        Password: <input type="password"><span id="suggestedPass">Enter a Password</span><br>
-            <div id="usernameCheck">
+        Desired Username: <input type="text" id="usernameCheck"><span id="usernameStatus"></span><span id="usernameLength"></span><br>
+        <!-- <span id="passwwordCheck"></span> -->
+        Password: <input type="password" id="passwordCheck"><span id="suggestedPass">Enter a Password</span><br>
+        <span id="passwordLength"></span> <br>
 
-            </div>
-        Type Password Again: <input type="password"><br>
-        <input type="submit" value="Sign up!">
+            <!-- <div id="usernameCheck">
+
+            </div> -->
+        Type Password Again: <input type="password" id="passwordMatch"><br>
+        <span id="passwordMatchStatus"></span>
+        <input id= signup type="submit" value="Sign up!">
     </fieldset>
 
     <script src="js/script.js"></script>

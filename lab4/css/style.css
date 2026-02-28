@@ -1,0 +1,36 @@
+body{
+    background-image: url("https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/05.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+fieldset{
+    border-width: 20px;
+}
+legend{
+    font-size: 2em;
+
+}
+#signup {
+    font-size: 1.25em;
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+}
+#signup:hover {
+    background-color: lightgray;
+    color: white;
+    box-shadow: 0 0 15px lightgray;
+    transition: .9s;
+}
+#state, #county{
+    background-color: lightgray;
+    font-size: 1em;
+}
+h1{
+    background-color: lightgray;
+}
