@@ -58,7 +58,7 @@ async function displayCity() {
     console.log(data);
     //alert(data.city);
     if (!data || !data.city) {
-        document.querySelector("#city").textContent = "Zip code not found";
+        document.querySelector("#zipCodeStatus").textContent = "Zip code not found";
         document.querySelector("#latitude").textContent = "";
         document.querySelector("#longitude").textContent = "";
         return;
